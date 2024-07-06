@@ -3,7 +3,6 @@
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	/*scroll-behavior: smooth;*/
 }
 .LandingPG{
 	position: relative;
@@ -111,11 +110,12 @@ header .nav li a span:hover{
 .content .text-area h1{
     text-transform: uppercase;
     font-size: 47px;
-    margin-bottom: 6px;
+    margin-bottom: 7px;
     color: white;
     width: 60%;
     font-weight: bolder;
     letter-spacing: 3px;
+    white-space: nowrap;
 }
 
 .content .text-area h2{
@@ -166,6 +166,10 @@ header .nav li a span:hover{
 }
 .content .text-area .btn1 {
    background: #ca0e0e;
+}
+.content .text-area .btn1 i{
+    font-size: 18px;
+    margin-right: 3px;
 }
 .play {
     position: absolute;
